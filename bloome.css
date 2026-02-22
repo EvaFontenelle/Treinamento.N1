@@ -20,6 +20,7 @@
     background-color: aliceblue;
     margin-top: -220px;
     border-radius: 15px;
+    font-size: x-large;
 }
 
 #lblSenha {
@@ -30,9 +31,10 @@
 #inpSenha {
     width: 350px;
     height: 30px;
-    background-color: aliceblue;;
+    background-color: aliceblue;
     border-radius: 15px;
     margin-top: 10px;
+    font-size: x-large;
 }
 
 #lblAdress {
@@ -46,6 +48,7 @@
     background-color: aliceblue;;
     border-radius: 15px;
     margin-top: 10px;
+    font-size: x-large;
 }
 
 #btnEntrar {
