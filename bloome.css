@@ -1,0 +1,59 @@
+#body {
+    background-color: rgb(63, 55, 55);
+}
+
+#logo {
+    width: 1000px;
+    margin-top: -180px;
+}
+
+#lblCPF {
+    display: block;
+    font-size: 30px;
+    color: rgb(181, 137, 192);
+    margin-top: -220px;
+}
+
+#inpCPF {
+    width: 350px;
+    height: 30px;
+    background-color: aliceblue;
+    margin-top: -220px;
+    border-radius: 15px;
+}
+
+#lblSenha {
+    font-size: 30px;
+    color: rgb(181, 137, 192);
+}
+
+#inpSenha {
+    width: 350px;
+    height: 30px;
+    background-color: aliceblue;;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+#lblAdress {
+    font-size: 30px;
+    color: rgb(181, 137, 192);
+}
+
+#inpAdress {
+    width: 350px;
+    height: 30px;
+    background-color: aliceblue;;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+#btnEntrar {
+    width: 300px;
+    height: 60px;
+    background-color: rgb(106, 33, 122);
+    color: aliceblue;
+    border-radius: 15px;
+    font-size: xx-large;
+    margin-top: 50px;
+}
