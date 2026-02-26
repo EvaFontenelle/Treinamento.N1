@@ -71,3 +71,41 @@ inpAdress.oninput = () => {
       : a
   );
 };
+
+const botao = document.getElementById("btnEntrar");
+
+botao.addEventListener("click", function () {
+
+    var cpf = document.getElementById("inpCPF").value;
+    var senha = document.getElementById("inpSenha").value;
+    var cep = document.getElementById("inpAdress").value;
+    var mensagem = document.getElementById("msg");
+
+    var cpfCorreto = "123.456.789-10";
+    var senhaCorreta = "12345";
+    var cepCorreto = "12345-678";
+
+    if (cpf === "" || senha === "" || cep === "") {
+
+        mensagem.innerText = "Preencha todos os campos!";
+        mensagem.style.color = "white";
+
+    } else if (cpf === cpfCorreto && senha === senhaCorreta && cep === cepCorreto) {
+
+        mensagem.innerText = "Login realizado com sucesso! Redirecionando...";
+        mensagem.style.color = "blue";
+
+        botao.disabled = true;
+
+        setTimeout(function () {
+            window.location.href = "vendas.html";
+        }, 5000);
+
+    } else {
+
+        mensagem.innerText = "Dados incorretos!";
+        mensagem.style.color = "purple";
+
+    }
+
+});
