@@ -17,3 +17,17 @@
     object-fit: cover; /* Faz a imagem se portar de acordo com o card */
     display: block;
 }
+
+p {
+    text-align: justify;
+    font-size: xx-large;
+    color: rgb(208, 131, 231);
+    margin-left: 120px;
+    margin-top: -1px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
